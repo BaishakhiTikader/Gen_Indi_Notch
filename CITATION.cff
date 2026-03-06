@@ -1,0 +1,9 @@
+cff-version: 1.2.0
+title: Probability Density and Free Energy Surface Generator
+message: If you use this software, please cite it using the metadata below.
+authors:
+  - family-names: YourLastName
+    given-names: YourFirstName
+date-released: 2026
+version: 1.0
+repository-code: https://github.com/yourusername/probability-density-analysis
