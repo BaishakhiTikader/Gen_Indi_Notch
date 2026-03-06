@@ -32,39 +32,6 @@ examples/ – example dataset and test script
 docs/ – method explanation  
 figures/ – example output plots  
 
-## Usage
-
-Example:
-
-cutoffs = [
-0 800
-800 2200
-2200 6000
-];
-
-weights = [1.2 1.0 1.0];
-
-probability_map('example_data.txt','probability.out',2,3,300,cutoffs,weights)
-
-## Input Format
-
-The input file should contain numerical columns, for example:
-
-col1 col2 col3 col4
-
-Users specify which columns correspond to the variables of interest.
-
-## Output
-
-- Probability distribution file
-- Free-energy contour plot
-
-## Repository Structure
-
-src/ – MATLAB source code  
-examples/ – example dataset and script  
-docs/ – method description  
-
 ## Author
 
 Baishakhi Tikader
