@@ -1,16 +1,18 @@
-clear
 clc
+clear
+
+nmax = 300;
 
 cutoffs = [
-0 500
-500 1500
-1500 3000
+0 600
+600 1200
+1200 6000
 ];
 
-weights = [1.2 1.0 1.0];
+weights = [
+1.2
+1.0
+1.0
+];
 
-probability_map('../data/example_data.txt',...
-                'probability.out',...
-                2,3,200,...
-                cutoffs,...
-                weights)
+generate_probability_map('NDJ_example_dataset.txt',nmax,cutoffs,weights)
